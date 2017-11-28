@@ -63,7 +63,7 @@ if (isset($_GET["send"])){
 
 					echo "<table id='table1'>";
 					
-					//Get the description for every Employee
+					//Get the description for the Employee
 					foreach ($res4 as $Descr){
 
 						echo "<tr><th>Employee ID</th>";
